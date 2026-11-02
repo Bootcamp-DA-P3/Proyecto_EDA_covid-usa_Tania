@@ -21,7 +21,8 @@ Este proyecto consiste en un **Análisis Exploratorio de Datos (EDA)** completo 
 ├── 📄 Informe Ejecutivo Completo # Documentación directiva del proyecto
 └── 📄 README.md                  # Documentación principal del repositorio
 
-##📋 Fases del Análisis y Metodología
+## 📋 Fases del Análisis y Metodología
+ 
 1. Definición del Dataset: Selección estratégica de variables clave (flujos diarios, acumulados y capacidad hospitalaria actual) a partir del dataset bruto.
 2. Diagnóstico de Calidad e Imputación: Auditoría de valores nulos (con énfasis en la escasez de registros UCI e infraestructura) y aplicación de técnicas de interpolación y asignación de ceros en flujos no reportados.
 3. Análisis Univariado: Estudio de distribución y asimetría positiva en variables de flujo diario, demostrando el comportamiento de la pandemia por olas extremas.
@@ -33,5 +34,6 @@ Este proyecto consiste en un **Análisis Exploratorio de Datos (EDA)** completo 
 ---
 
 ## ⚙️ Tecnologías y Librerías UtilizadasEl proyecto está desarrollado íntegramente en Python, utilizando el siguiente stack tecnológico:
+
 - Pandas & NumPy: Ingesta, limpieza, transformación y estructuración de series temporales.
 - Matplotlib & Seaborn: Visualización avanzada de distribuciones, matrices de correlación y gráficos exploratorios.
