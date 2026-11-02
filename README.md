@@ -20,13 +20,13 @@ Este proyecto consiste en un **Análisis Exploratorio de Datos (EDA)** completo 
 ├── 📓 EDA_Covid19_US.ipynb       # Jupyter Notebook con el código fuente y análisis paso a paso
 ├── 📄 Informe Ejecutivo Completo # Documentación directiva del proyecto
 └── 📄 README.md                  # Documentación principal del repositorio
+```
 
-<<<<<<< HEAD
-##📋 Fases del Análisis y MetodologíaDefinición del Dataset: Selección estratégica de variables clave (flujos diarios, acumulados y capacidad hospitalaria actual) a partir del dataset bruto.   Diagnóstico de Calidad e Imputación: Auditoría de valores nulos (con énfasis en la escasez de registros UCI e infraestructura) y aplicación de técnicas de interpolación y asignación de ceros en flujos no reportados.   Análisis Univariado: Estudio de distribución y asimetría positiva en variables de flujo diario, demostrando el comportamiento de la pandemia por olas extremas.   Tendencias Temporales y Desfase (Lag): Identificación empírica del desfase estructural entre el pico de contagios (positiveIncrease) y el pico de saturación/mortalidad (deathIncrease).   Análisis Bivariado y Regional: Comparación de volúmenes absolutos frente a métricas estandarizadas por habitante, revelando el impacto relativo en distintas zonas.   Matriz de Correlación: Identificación de variables críticas (como la ocupación UCI) frente a los decesos.   Conclusiones Directivas: Recomendaciones operativas basadas en la ventana de anticipación para la gestión de recursos sanitarios.
-=======
+---
+
 ## 📋 Fases del Análisis y Metodología
- 
-1. Definición del Dataset: Selección estratégica de variables clave (flujos diarios, acumulados y capacidad hospitalaria actual) a partir del dataset bruto.
+1. Definición del Dataset: Selección estratégica de variables clave (flujos diarios, acumulados y capacidad hospitalaria actual) a partir
+a partir del dataset bruto.
 2. Diagnóstico de Calidad e Imputación: Auditoría de valores nulos (con énfasis en la escasez de registros UCI e infraestructura) y aplicación de técnicas de interpolación y asignación de ceros en flujos no reportados.
 3. Análisis Univariado: Estudio de distribución y asimetría positiva en variables de flujo diario, demostrando el comportamiento de la pandemia por olas extremas.
 4. Tendencias Temporales y Desfase (Lag): Identificación empírica del desfase estructural entre el pico de contagios (positiveIncrease) y el pico de saturación/mortalidad (deathIncrease).
@@ -40,4 +40,10 @@ Este proyecto consiste en un **Análisis Exploratorio de Datos (EDA)** completo 
 
 - Pandas & NumPy: Ingesta, limpieza, transformación y estructuración de series temporales.
 - Matplotlib & Seaborn: Visualización avanzada de distribuciones, matrices de correlación y gráficos exploratorios.
->>>>>>> d48a941bc18380e1739abdaf5b03bdd42e107e8f
+
+---
+
+## 📌 Principales Conclusiones Operativas
+- Ventana Predictiva: El desfase identificado permite a las directivas activar planes de contingencia con antelación.
+- KPI Central: La monitorización debe priorizar la ocupación de camas críticas por encima de los contagios absolutos para medir la verdadera severidad sanitaria.
+- Estrategia Demográfica: La asignación de recursos debe basarse en la vulnerabilidad per cápita y no solo en el volumen poblacional absoluto.
