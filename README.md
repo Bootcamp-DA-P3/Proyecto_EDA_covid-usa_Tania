@@ -43,6 +43,13 @@ a partir del dataset bruto.
 
 ---
 
+## App interactiva
+App que muestra casi la misma información y gráficas del notebook.
+
+streamlit run app/Appsteamlit.py
+
+---
+
 ## 📌 Principales Conclusiones Operativas
 - Ventana Predictiva: El desfase identificado permite a las directivas activar planes de contingencia con antelación.
 - KPI Central: La monitorización debe priorizar la ocupación de camas críticas por encima de los contagios absolutos para medir la verdadera severidad sanitaria.
