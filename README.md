@@ -46,7 +46,7 @@ a partir del dataset bruto.
 ## App interactiva
 App que muestra casi la misma información y gráficas del notebook.
 
-streamlit run app/Appsteamlit.py
+streamlit run src/Appsteamlit.py
 
 ---
 
